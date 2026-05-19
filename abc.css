@@ -1,0 +1,125 @@
+.div {
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    background-color: red;
+    position: relative;
+
+
+}
+
+.box:hover {
+    scale: 1.5;
+    transform: rotate(45%);
+}
+
+.b {}
+
+.hy {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    position: relative;
+    text-align: center;
+    left: 500px;
+    transition: all 4s ease-out 0.5s;
+
+
+}
+
+.hy:hover {
+    width: 500px;
+    color: aliceblue;
+    background-color: blue;
+    border-bottom: color(red);
+    rotate: 360deg;
+    display: alternate;
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    background: tomato;
+    color: #fff;
+    text-align: center;
+
+    /* shorthand transition */
+    transition: all 0.4s ease;
+
+}
+
+.box:hover {
+    background: teal;
+    transform: scale(1.2);
+    rotate: 45deg;
+}
+
+.bx {
+    position: relative;
+    left: 500px;        
+    height: 100px;
+    width: 100px;
+    border: 2px solid gray;
+    animation: change 5s infinite linear;
+    border-radius: 50%;
+}
+
+@keyframes change {
+    
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        left: 100px;
+        top: 0px;
+        border: 2px solid red;
+
+    }
+
+    50% {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        left: 100px;
+        top: 100px;
+
+    }
+
+    75% {
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top: 100px;
+        border: 2px solid red;
+
+    }
+
+    100% {
+        background-color: green;
+        width: 100px;
+        top: 0px;
+        left: 0px;
+
+    }
+}
+
+.bx:hover {
+    width: 100px;
+    height: 100px;
+}
+
+.reveiw{
+    border: 2px solid red;
+}
